@@ -2,6 +2,8 @@ package guru.qa;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Не хочу приветствовать мир");
+        if (args.length == 0) {
+            System.out.println("Не хочу приветствовать мир");
+        }
     }
 }

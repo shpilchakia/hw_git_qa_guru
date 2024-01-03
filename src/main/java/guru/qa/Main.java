@@ -2,6 +2,7 @@ package guru.qa;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Не хочу приветствовать мир");
+        String message = "Не хочу приветствовать мир";
+        System.out.println(message);
     }
 }
